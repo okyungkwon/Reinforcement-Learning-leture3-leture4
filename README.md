@@ -40,5 +40,7 @@ agent가 우연히 목표 근처(목표 지점 바로 왼쪽 지점), 도달할 
 ## 실습
 <img width="196" alt="스크린샷 2023-01-13 오전 5 04 12" src="https://user-images.githubusercontent.com/121830114/212173372-2715938f-7507-438b-92ff-c8166d357112.png">
 plot success rate
-<img width="590" alt="스크린샷 2023-01-13 오전 5 04 29" src="https://user-images.githubusercontent.com/121830114/212173390-634d7eb8-8b21-425e-8892-73a620b35fd0.png">
-
+<img width="350" alt="스크린샷 2023-01-13 오전 5 04 29" src="https://user-images.githubusercontent.com/121830114/212173390-634d7eb8-8b21-425e-8892-73a620b35fd0.png">
+exploit & exploration
+<img width="389" alt="스크린샷 2023-01-13 오전 5 42 00" src="https://user-images.githubusercontent.com/121830114/212176791-f3c2539e-ddac-48d7-ac84-c8fc5f77f24b.png">
+<img width="350" alt="스크린샷 2023-01-13 오전 5 42 27" src="https://user-images.githubusercontent.com/121830114/212176798-84686e00-40e8-4ca8-aa8b-d65c4a225a98.png">
