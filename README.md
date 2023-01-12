@@ -49,6 +49,7 @@ Exploit & Exploration의 방법 2가지
 e값을 0.1로 고정시킨 후, random값을 이용하여 random값이 e를 넘지 못할 경우 exploration 하도록 정하고, random값이 e를 넘을 경우, 기존의 방식인 Q값을 이용
 ### Exploit & Exploration: random noise
 기존의 Q값에 random한 noise를 추가
+<img width="613" alt="스크린샷 2023-01-13 오전 6 18 43" src="https://user-images.githubusercontent.com/121830114/212183430-c3ac7646-5435-454b-a9e2-b3bbfdd72735.png">
 ### E-greedy와 random noise 방법의 차이점
 E-greedy의 경우는 완전한 Exploration인 반면, random noise의 경우는 기존의 Q값에 더해진 값을 이용하기 때문에 완전한 Exploration은 아니라는 점이다.
 
