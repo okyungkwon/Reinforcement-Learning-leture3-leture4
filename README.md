@@ -23,11 +23,17 @@
 Q에게 줄 정보는 현재 state와 어떤 action을 선택했는지에 대한 정보다. <br>
 그러면 Q는 그 길로 가는 행동이 얼마나 좋은지 알려준다(reward) -> Q function <br>
 - 현재 상태에서 취할수 있는 action(Left, Right, Up, Down)에 대한 피드백의 예시
-<img width="382" alt="스크린샷 2023-01-13 오전 4 42 42" src="https://user-images.githubusercontent.com/121830114/212166137-41f7b64e-ba40-4f19-8f99-3f2c7bd53980.png">
+<img width="200" alt="스크린샷 2023-01-13 오전 4 42 42" src="https://user-images.githubusercontent.com/121830114/212166137-41f7b64e-ba40-4f19-8f99-3f2c7bd53980.png">
 ###Q를 이용한 최적화된 정책 탐색
 Q는 처음에는 최적화되진 않다. 하지만 처음부터 최적화되었다고 가정하고 Q의 값을 참고하여 길을 나서는 방식을 취한다. <br>
 궁극적으로, Q를 최적화한 Q가 되도록 학습하는 것이 핵심이다. Q는 다음과 같이 업데이트되어 최적화한다.
 
 ### Q값 업데이트 과정
 - 초기 Q의 상태
-상황이 이러하므로 초기에 agent는 무작위로 움직임 
+<img width="640" alt="스크린샷 2023-01-13 오전 4 55 13" src="https://user-images.githubusercontent.com/121830114/212168337-1678f975-e40b-4a42-a1b8-052082513ebc.png">
+상황이 이러하므로 초기에 agent는 무작위로 움직임
+<img width="597" alt="스크린샷 2023-01-13 오전 4 57 41" src="https://user-images.githubusercontent.com/121830114/212168342-b30babf3-4953-4080-b462-11d621fe9154.png">
+agent가 우연히 목표 근처(목표 지점 바로 왼쪽 지점), 도달할 때 해당 영역에서의 Q값이 Right action에 대한 reward인 1을 리턴
+<img width="541" alt="스크린샷 2023-01-13 오전 4 57 52" src="https://user-images.githubusercontent.com/121830114/212168351-d5125868-aed4-42c8-8f60-fd313c572b2b.png">
+같은 방식으로 계속 무작위적으로 행동하다가 최종적으로 위의 상황이 됨
+
