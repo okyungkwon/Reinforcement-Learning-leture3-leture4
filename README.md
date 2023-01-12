@@ -22,6 +22,6 @@ agent가 action을 취하는 방법
 
 Q에게 줄 정보는 현재 state와 어떤 action을 선택했는지에 대한 정보다. <br>
 그러면 Q는 그 길로 가는 행동이 얼마나 좋은지 알려준다(reward) -> Q function <br>
-현재 상태에서 취할수 있는 action(Left, Right, Up, Down)에 대한 피드백의 예시
+- 현재 상태에서 취할수 있는 action(Left, Right, Up, Down)에 대한 피드백의 예시
 <img width="382" alt="스크린샷 2023-01-13 오전 4 42 42" src="https://user-images.githubusercontent.com/121830114/212166137-41f7b64e-ba40-4f19-8f99-3f2c7bd53980.png">
 
