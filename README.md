@@ -44,3 +44,6 @@ plot success rate
 exploit & exploration
 <img width="389" alt="스크린샷 2023-01-13 오전 5 42 00" src="https://user-images.githubusercontent.com/121830114/212176791-f3c2539e-ddac-48d7-ac84-c8fc5f77f24b.png">
 <img width="350" alt="스크린샷 2023-01-13 오전 5 42 27" src="https://user-images.githubusercontent.com/121830114/212176798-84686e00-40e8-4ca8-aa8b-d65c4a225a98.png">
+E-Greedy
+<img width="385" alt="스크린샷 2023-01-13 오전 5 59 37" src="https://user-images.githubusercontent.com/121830114/212180274-a4d66d4a-710c-44f1-bdbc-f51de2113ad7.png">
+<img width="350" alt="스크린샷 2023-01-13 오전 5 59 50" src="https://user-images.githubusercontent.com/121830114/212180276-550db061-a365-4eb3-b384-bf3e5cf64560.png">
