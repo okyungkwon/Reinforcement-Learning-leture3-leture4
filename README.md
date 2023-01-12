@@ -37,6 +37,21 @@ agent가 우연히 목표 근처(목표 지점 바로 왼쪽 지점), 도달할 
 <img width="541" alt="스크린샷 2023-01-13 오전 4 57 52" src="https://user-images.githubusercontent.com/121830114/212168351-d5125868-aed4-42c8-8f60-fd313c572b2b.png">
 같은 방식으로 계속 무작위적으로 행동하다가 최종적으로 위의 상황이 됨
 
+## Exploit & Exploration
+위의 루트는 최적의 루트 아님 (이유: agent가 새로운 루트를 찾아보지 않음) <br>
+한번 최적의 루트라고 확정된 경로를 그대로 고수하고 다른 길은 쳐다도 보지 않음 <br>
+해결책: Exploit & Exploration
+내가 알고 있는 가장 좋은 루트뿐만 아니라 새로운 루트를 탐험하는 것을 병행함으로써 최적의 루트 탐색
+Exploit & Exploration의 방법 2가지
+- E-greedy
+- add random noise
+### Exploit & Exploration: E-greedy
+e값을 0.1로 고정시킨 후, random값을 이용하여 random값이 e를 넘지 못할 경우 exploration 하도록 정하고, random값이 e를 넘을 경우, 기존의 방식인 Q값을 이용
+### Exploit & Exploration: random noise
+기존의 Q값에 random한 noise를 추가
+### E-greedy와 random noise 방법의 차이점
+E-greedy의 경우는 완전한 Exploration인 반면, random noise의 경우는 기존의 Q값에 더해진 값을 이용하기 때문에 완전한 Exploration은 아니라는 점이다.
+
 ## 실습
 <img width="196" alt="스크린샷 2023-01-13 오전 5 04 12" src="https://user-images.githubusercontent.com/121830114/212173372-2715938f-7507-438b-92ff-c8166d357112.png">
 plot success rate
